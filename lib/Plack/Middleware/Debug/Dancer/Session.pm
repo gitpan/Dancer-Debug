@@ -1,6 +1,6 @@
 package Plack::Middleware::Debug::Dancer::Session;
 BEGIN {
-  $Plack::Middleware::Debug::Dancer::Session::VERSION = '0.02';
+  $Plack::Middleware::Debug::Dancer::Session::VERSION = '0.03';
 }
 
 # ABSTRACT: Session panel for your Dancer's application
@@ -34,7 +34,7 @@ Plack::Middleware::Debug::Dancer::Session - Session panel for your Dancer's appl
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

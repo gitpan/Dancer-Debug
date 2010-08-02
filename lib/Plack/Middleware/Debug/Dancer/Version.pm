@@ -1,6 +1,6 @@
 package Plack::Middleware::Debug::Dancer::Version;
 BEGIN {
-  $Plack::Middleware::Debug::Dancer::Version::VERSION = '0.02';
+  $Plack::Middleware::Debug::Dancer::Version::VERSION = '0.03';
 }
 
 # ABSTRACT: Show Dancer's version
@@ -31,7 +31,7 @@ Plack::Middleware::Debug::Dancer::Version - Show Dancer's version
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

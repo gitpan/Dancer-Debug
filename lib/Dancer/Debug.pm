@@ -1,6 +1,6 @@
 package Dancer::Debug;
 BEGIN {
-  $Dancer::Debug::VERSION = '0.02';
+  $Dancer::Debug::VERSION = '0.03';
 }
 
 # ABSTRACT: Extend Plack::Middleware::Debug with some specific panels for Dancer
@@ -20,7 +20,7 @@ Dancer::Debug - Extend Plack::Middleware::Debug with some specific panels for Da
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

@@ -1,6 +1,6 @@
 package Plack::Middleware::Debug::Dancer::Settings;
 BEGIN {
-  $Plack::Middleware::Debug::Dancer::Settings::VERSION = '0.02';
+  $Plack::Middleware::Debug::Dancer::Settings::VERSION = '0.03';
 }
 
 # ABSTRACT: Settings panel of your Dancer's application
@@ -36,7 +36,7 @@ Plack::Middleware::Debug::Dancer::Settings - Settings panel of your Dancer's app
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

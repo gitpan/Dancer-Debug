@@ -1,6 +1,6 @@
 package Plack::Middleware::Debug::Dancer::Routes;
 BEGIN {
-  $Plack::Middleware::Debug::Dancer::Routes::VERSION = '0.02';
+  $Plack::Middleware::Debug::Dancer::Routes::VERSION = '0.03';
 }
 
 # ABSTRACT: Show available and matched routes for your application
@@ -50,7 +50,7 @@ Plack::Middleware::Debug::Dancer::Routes - Show available and matched routes for
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

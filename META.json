@@ -46,7 +46,7 @@
          "url" : "git://github.com/franckcuny/dancer-debug.git"
       }
    },
-   "version" : "0.02",
+   "version" : "0.03",
    "x_Dist_Zilla" : {
       "plugins" : [
          {

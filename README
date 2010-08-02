@@ -3,7 +3,7 @@ NAME
     panels for Dancer
 
 VERSION
-    version 0.02
+    version 0.03
 
 SYNOPSIS
     You can activate the panels in your development configuration file:
