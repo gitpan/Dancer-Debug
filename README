@@ -3,7 +3,7 @@ NAME
     panels for Dancer
 
 VERSION
-    version 0.01
+    version 0.02
 
 SYNOPSIS
     You can activate the panels in your development configuration file:
@@ -16,6 +16,7 @@ SYNOPSIS
               - Dancer::Version
               - Dancer::Settings
               - Dancer::Logger
+              - Dancer::Routes
 
     or in your app.psgi:
 
@@ -30,7 +31,7 @@ DESCRIPTION
     for Dancer.
 
 AUTHOR
-      franck cuny <franck@lumberjaph.net>
+    franck cuny <franck@lumberjaph.net>
 
 COPYRIGHT AND LICENSE
     This software is copyright (c) 2010 by franck cuny.

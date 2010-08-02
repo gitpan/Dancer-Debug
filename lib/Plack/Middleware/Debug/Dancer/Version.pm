@@ -1,6 +1,6 @@
 package Plack::Middleware::Debug::Dancer::Version;
 BEGIN {
-  $Plack::Middleware::Debug::Dancer::Version::VERSION = '0.01';
+  $Plack::Middleware::Debug::Dancer::Version::VERSION = '0.02';
 }
 
 # ABSTRACT: Show Dancer's version
@@ -21,6 +21,7 @@ sub run {
 
 1;
 
+
 __END__
 =pod
 
@@ -30,11 +31,21 @@ Plack::Middleware::Debug::Dancer::Version - Show Dancer's version
 
 =head1 VERSION
 
-version 0.01
+version 0.02
+
+=head1 SYNOPSIS
+
+To activate this panel:
+
+    plack_middlewares:
+      Debug:
+        - panels
+        -
+          - Dancer::Version
 
 =head1 AUTHOR
 
-  franck cuny <franck@lumberjaph.net>
+franck cuny <franck@lumberjaph.net>
 
 =head1 COPYRIGHT AND LICENSE
 

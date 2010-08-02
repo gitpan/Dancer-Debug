@@ -1,10 +1,12 @@
 package Dancer::Debug;
+BEGIN {
+  $Dancer::Debug::VERSION = '0.02';
+}
 
 # ABSTRACT: Extend Plack::Middleware::Debug with some specific panels for Dancer
 
 use strict;
 use warnings;
-our $VERSION = '0.01';
 
 1;
 
@@ -18,7 +20,7 @@ Dancer::Debug - Extend Plack::Middleware::Debug with some specific panels for Da
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -32,6 +34,7 @@ You can activate the panels in your development configuration file:
           - Dancer::Version
           - Dancer::Settings
           - Dancer::Logger
+          - Dancer::Routes
 
 or in your app.psgi:
 
@@ -47,7 +50,7 @@ Dancer::Debug extends L<Plack::Middleware::Debug> with some specific panels for 
 
 =head1 AUTHOR
 
-  franck cuny <franck@lumberjaph.net>
+franck cuny <franck@lumberjaph.net>
 
 =head1 COPYRIGHT AND LICENSE
 

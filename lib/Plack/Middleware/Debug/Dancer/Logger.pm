@@ -1,6 +1,6 @@
 package Plack::Middleware::Debug::Dancer::Logger;
 BEGIN {
-  $Plack::Middleware::Debug::Dancer::Logger::VERSION = '0.01';
+  $Plack::Middleware::Debug::Dancer::Logger::VERSION = '0.02';
 }
 
 # ABSTRACT: Log message from you Dancer's application
@@ -56,6 +56,7 @@ sub run {
 
 1;
 
+
 __END__
 =pod
 
@@ -65,11 +66,21 @@ Plack::Middleware::Debug::Dancer::Logger - Log message from you Dancer's applica
 
 =head1 VERSION
 
-version 0.01
+version 0.02
+
+=head1 SYNOPSIS
+
+To activate this panel:
+
+    plack_middlewares:
+      Debug:
+        - panels
+        -
+          - Dancer::Logger
 
 =head1 AUTHOR
 
-  franck cuny <franck@lumberjaph.net>
+franck cuny <franck@lumberjaph.net>
 
 =head1 COPYRIGHT AND LICENSE
 

@@ -8,6 +8,7 @@ README
 dist.ini
 lib/Dancer/Debug.pm
 lib/Plack/Middleware/Debug/Dancer/Logger.pm
+lib/Plack/Middleware/Debug/Dancer/Routes.pm
 lib/Plack/Middleware/Debug/Dancer/Session.pm
 lib/Plack/Middleware/Debug/Dancer/Settings.pm
 lib/Plack/Middleware/Debug/Dancer/Version.pm

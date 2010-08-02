@@ -1,6 +1,6 @@
 package Plack::Middleware::Debug::Dancer::Settings;
 BEGIN {
-  $Plack::Middleware::Debug::Dancer::Settings::VERSION = '0.01';
+  $Plack::Middleware::Debug::Dancer::Settings::VERSION = '0.02';
 }
 
 # ABSTRACT: Settings panel of your Dancer's application
@@ -26,6 +26,7 @@ sub run {
 
 1;
 
+
 __END__
 =pod
 
@@ -35,11 +36,21 @@ Plack::Middleware::Debug::Dancer::Settings - Settings panel of your Dancer's app
 
 =head1 VERSION
 
-version 0.01
+version 0.02
+
+=head1 SYNOPSIS
+
+To activate this panel:
+
+    plack_middlewares:
+      Debug:
+        - panels
+        -
+          - Dancer::Settings
 
 =head1 AUTHOR
 
-  franck cuny <franck@lumberjaph.net>
+franck cuny <franck@lumberjaph.net>
 
 =head1 COPYRIGHT AND LICENSE
 
